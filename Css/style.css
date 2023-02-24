@@ -1,0 +1,10 @@
+body {
+  display: flex;
+  background-color: #ffffff;
+  flex-direction: column;
+}
+
+.topSection {
+  margin-bottom: 10px;
+  background-color: #4f4f7e;
+}/*# sourceMappingURL=style.css.map */
