@@ -1,5 +1,8 @@
+@use '_base' as *;
+
+
 body {
-    display: flex;
+    display: $mydisplay;
     background-color: #ffffff;
     flex-direction: column;
 }
@@ -7,20 +10,19 @@ body {
     // flex-direction: row;
     margin-bottom: 10px;
     background-color: #4f4f7e;
-    display: flex;
+    display: $mydisplay;
 }
 .icon {
-    display: flex;
+    display: $mydisplay;
     
 }
 .topSectionText {
-    display: flex;
+    display: $mydisplay;
     flex-direction: column;
     align-items: flex-end;
-
 }
 .summarySection {
-    display: flex;
+    display: $mydisplay;
     flex-direction: row;
     
 }
@@ -29,7 +31,7 @@ body {
     margin-right: 30px;
 }
 .icon {
-    display: flex;
+    display: $mydisplay;
     margin-left: 40px;
 }
 // import properties from a separate css file like body or topsection as examples
