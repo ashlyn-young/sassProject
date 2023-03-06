@@ -7,4 +7,14 @@ body {
 .topSection {
   margin-bottom: 10px;
   background-color: #4f4f7e;
+}
+
+.icon {
+  display: flex;
+}
+
+.topSectionText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }/*# sourceMappingURL=style.css.map */
