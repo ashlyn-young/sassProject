@@ -1,21 +1,52 @@
-// import properties from a separate css file like body or topsection as examples
-// extend is when you also add to your body section even if you have a body css file
-@import 'body.css';
-@import 'topSection.css';
-
-
-.body {
-    &--topSectionText {
-        @extend .error;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-    }
+body {
+    display: flex;
+    background-color: #ffffff;
+    flex-direction: column;
 }
-
+.topSection {
+    // flex-direction: row;
+    margin-bottom: 10px;
+    background-color: #4f4f7e;
+}
 .icon {
     display: flex;
     
 }
+.topSectionText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+.summarySection {
+    display: flex;
+    flex-direction: row;
+    
+}
+.leftHalf {
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+// import properties from a separate css file like body or topsection as examples
+// extend is when you also add to your body section even if you have a body css file
+// @import 'body.css';
+// @import 'topSection.css';
+
+
+// .body {
+//     &--topSectionText {
+//         @extend .error;
+//         display: flex;
+//         flex-direction: column;
+//         align-items: flex-end;
+//     }
+// }
+
+// .icon {
+//     display: flex;
+    
+// }
 // mix ins could be for the sizing/font of headers
 // including things like spacing and such.
+// INCLUDING THIS BUT IT MESSED UP MY CODE, SO I WANT TO USE IT BUT GET IT TO FUNCTION AGAIN FIRST
