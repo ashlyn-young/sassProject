@@ -26,11 +26,36 @@ body {
 }
 
 .leftHalf {
-  margin-left: 20px;
-  margin-right: 30px;
+  margin-left: 5%;
 }
 
 .icon {
   display: flex;
   margin-left: 40px;
+}
+
+.personalProfile {
+  display: flex;
+  flex-direction: column;
+  margin-right: 75%;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin-right: 75%;
+}
+
+.education {
+  display: flex;
+  flex-direction: column;
+  margin-right: 75%;
+}
+
+.rightHalf {
+  display: flex;
+  flex-direction: column;
+  background-color: #e0e3e7;
+  margin-left: -45%;
+  padding-right: 45%;
 }/*# sourceMappingURL=style.css.map */

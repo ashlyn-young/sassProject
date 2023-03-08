@@ -9,7 +9,7 @@ body {
 .topSection {
     // flex-direction: row;
     margin-bottom: 10px;
-    background-color: #4f4f7e;
+    background-color: $topSectionColor;
     display: $mydisplay;
 }
 .icon {
@@ -27,13 +27,38 @@ body {
     
 }
 .leftHalf {
-    margin-left: 20px;
-    margin-right: 30px;
+    margin-left: 5%;
 }
 .icon {
     display: $mydisplay;
     margin-left: 40px;
 }
+.personalProfile {
+    display: $mydisplay;
+    flex-direction: column;
+    margin-right: $leftMargins;
+    // may be able to make set margins for this, contact, and education sections.
+}
+.contact {
+    display: $mydisplay;
+    flex-direction: column;
+    margin-right: $leftMargins;
+    // this margin will need to differ because of the icons I need.
+}
+.education {
+    display: $mydisplay;
+    flex-direction: column;
+    margin-right: $leftMargins;
+}
+.rightHalf {
+    display: $mydisplay;
+    flex-direction: column;
+    background-color: $rightBackground;
+    margin-left: -45%;
+    padding-right: 45%;
+
+}
+
 // import properties from a separate css file like body or topsection as examples
 // extend is when you also add to your body section even if you have a body css file
 // @import 'body.css';
