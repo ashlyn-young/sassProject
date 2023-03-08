@@ -5,9 +5,9 @@ body {
 }
 
 .topSection {
-  margin-bottom: 10px;
   background-color: #4f4f7e;
   display: flex;
+  padding-bottom: 10px;
 }
 
 .icon {
@@ -27,6 +27,8 @@ body {
 
 .leftHalf {
   margin-left: 5%;
+  margin-right: 10px;
+  color: #4b515f;
 }
 .leftHalf p {
   margin-right: 75%;
@@ -36,6 +38,12 @@ body {
 }
 .leftHalf h1 {
   margin-right: 75%;
+}
+
+.divider {
+  border-top: 8px solid #babec7;
+  border-radius: 5px;
+  margin-right: 88%;
 }
 
 .icon {
@@ -58,12 +66,17 @@ body {
   flex-direction: column;
 }
 
-.rightHalf {
+.rightBox {
   display: flex;
   flex-direction: column;
   background-color: #e0e3e7;
   margin-left: -45%;
-  padding-right: 45%;
+  padding-right: 37%;
+}
+
+.rightHalf {
+  padding-left: 20px;
+  color: #4b515f;
 }
 
 .iconContent {
@@ -80,4 +93,22 @@ body {
 .align {
   padding-top: 14px;
   padding-right: 5px;
+}
+
+.education p {
+  margin-bottom: -7px;
+}
+
+.monkeys h3 {
+  margin-bottom: -10px;
+}
+.monkeys h5 {
+  margin-bottom: -5px;
+}
+
+.worldMark h3 {
+  margin-bottom: -10px;
+}
+.worldMark h5 {
+  margin-bottom: -5px;
 }/*# sourceMappingURL=style.css.map */
