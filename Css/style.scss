@@ -28,6 +28,16 @@ body {
 }
 .leftHalf {
     margin-left: 5%;
+    p{
+        margin-right: $rightMargins;
+        // this is the extend property. Applies this to any paragraph in this div.
+    }
+    i{
+        margin-right: $rightMargins;
+    }
+    h1 {
+        margin-right: $rightMargins;
+    }
 }
 .icon {
     display: $mydisplay;
@@ -36,19 +46,19 @@ body {
 .personalProfile {
     display: $mydisplay;
     flex-direction: column;
-    margin-right: $leftMargins;
+    // margin-right: $leftMargins;
     // may be able to make set margins for this, contact, and education sections.
 }
 .contact {
     display: $mydisplay;
     flex-direction: column;
-    margin-right: $leftMargins;
+    // margin-right: $leftMargins;
     // this margin will need to differ because of the icons I need.
 }
 .education {
     display: $mydisplay;
     flex-direction: column;
-    margin-right: $leftMargins;
+    // margin-right: $leftMargins;
 }
 .rightHalf {
     display: $mydisplay;
@@ -57,6 +67,20 @@ body {
     margin-left: -45%;
     padding-right: 45%;
 
+}
+.iconContent {
+    display: $mydisplay;
+    flex-direction: row;
+    margin-bottom: -12px;
+
+}
+.mapPin {
+    padding-top: 20px;
+    padding-right: 5px;
+}
+.align {
+    padding-top: 14px;
+    padding-right: 5px;
 }
 
 // import properties from a separate css file like body or topsection as examples

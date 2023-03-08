@@ -28,6 +28,15 @@ body {
 .leftHalf {
   margin-left: 5%;
 }
+.leftHalf p {
+  margin-right: 75%;
+}
+.leftHalf i {
+  margin-right: 75%;
+}
+.leftHalf h1 {
+  margin-right: 75%;
+}
 
 .icon {
   display: flex;
@@ -37,19 +46,16 @@ body {
 .personalProfile {
   display: flex;
   flex-direction: column;
-  margin-right: 75%;
 }
 
 .contact {
   display: flex;
   flex-direction: column;
-  margin-right: 75%;
 }
 
 .education {
   display: flex;
   flex-direction: column;
-  margin-right: 75%;
 }
 
 .rightHalf {
@@ -58,4 +64,20 @@ body {
   background-color: #e0e3e7;
   margin-left: -45%;
   padding-right: 45%;
+}
+
+.iconContent {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: -12px;
+}
+
+.mapPin {
+  padding-top: 20px;
+  padding-right: 5px;
+}
+
+.align {
+  padding-top: 14px;
+  padding-right: 5px;
 }/*# sourceMappingURL=style.css.map */
