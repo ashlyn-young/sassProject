@@ -1,0 +1,7 @@
+Including the project requirements to help me make sure I'm including what is necessary.
+
+
+-5  or more variables 
+-@import - I believe import is outdated, and used '@use' instead to carry over my variables.
+-@extend rules - Within .leftHalf I've extended multiple properties within the div, as well as in .monkeys, .education, and .worldMark.
+-@mixin - repeatable sections of code

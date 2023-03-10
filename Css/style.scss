@@ -1,5 +1,5 @@
 @use '_base' as *;
-
+// I believe the above is the newer version of import.
 
 body {
     display: $mydisplay;
@@ -33,6 +33,7 @@ body {
     p{
         margin-right: $rightMargins;
         // this is the extend property. Applies this to any paragraph in this div.
+        // including attributes for paragraphs within another div.
     }
     i{
         margin-right: $rightMargins;
