@@ -7,17 +7,34 @@ body {
 .topSection {
   background-color: #4f4f7e;
   display: flex;
-  padding-bottom: 10px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .icon {
   display: flex;
+  padding-left: 8%;
 }
 
 .topSectionText {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: flex-start;
+  padding-left: 15%;
+}
+
+.name h1 {
+  color: #ffffff;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  font-size: 60px;
+}
+
+.jobTitle h3 {
+  color: #ffffff;
+  margin-top: 10px;
+  font-size: 25px;
+  font-weight: lighter;
 }
 
 .summarySection {
@@ -27,7 +44,9 @@ body {
 
 .leftHalf {
   margin-left: 5%;
-  margin-right: 10px;
+  margin-right: 70px;
+  margin-top: 20px;
+  padding-bottom: 20px;
   color: #4b515f;
 }
 .leftHalf p {
@@ -38,12 +57,14 @@ body {
 }
 .leftHalf h1 {
   margin-right: 75%;
+  margin-bottom: 10px;
 }
 
 .divider {
   border-top: 8px solid #babec7;
   border-radius: 5px;
   margin-right: 88%;
+  margin-top: 1px;
 }
 
 .icon {
@@ -70,8 +91,10 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #e0e3e7;
-  margin-left: -45%;
+  padding-top: 20px;
+  margin-left: -34%;
   padding-right: 37%;
+  padding-left: 5%;
 }
 
 .rightHalf {
@@ -104,6 +127,11 @@ body {
 }
 .monkeys h5 {
   margin-bottom: -5px;
+}
+
+.notBold {
+  padding-left: 3px;
+  font-weight: lighter;
 }
 
 .worldMark h3 {

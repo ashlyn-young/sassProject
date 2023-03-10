@@ -10,16 +10,36 @@ body {
     // flex-direction: row;
     background-color: $topSectionColor;
     display: $mydisplay;
-    padding-bottom: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 .icon {
     display: $mydisplay;
+    padding-left: 8%;
     
 }
 .topSectionText {
     display: $mydisplay;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
+    padding-left: 15%;
+}
+
+.name {
+    h1{
+        color: #ffffff;
+        margin-top: 50px;
+        margin-bottom: 0px;
+        font-size: 60px;
+    }
+}
+.jobTitle {
+    h3 {
+        color: #ffffff;
+        margin-top: 10px;
+        font-size: 25px;
+        font-weight: lighter;
+    }
 }
 .summarySection {
     display: $mydisplay;
@@ -28,7 +48,9 @@ body {
 }
 .leftHalf {
     margin-left: 5%;
-    margin-right: 10px;
+    margin-right: 70px;
+    margin-top: 20px;
+    padding-bottom: 20px;
     color: #4b515f;
     p{
         margin-right: $rightMargins;
@@ -40,12 +62,14 @@ body {
     }
     h1 {
         margin-right: $rightMargins;
+        margin-bottom: 10px;
     }
 }
 .divider {
     border-top: 8px solid #babec7;
     border-radius: 5px;
     margin-right: 88%;
+    margin-top: 1px;
 }
 .icon {
     display: $mydisplay;
@@ -72,13 +96,32 @@ body {
     display: $mydisplay;
     flex-direction: column;
     background-color: $rightBackground;
-    margin-left: -45%;
+    padding-top: 20px;
+    margin-left: -34%;
     padding-right: 37%;
+    padding-left: 5%
 
 }
 .rightHalf {
     padding-left: 20px;
     color: #4b515f;
+    // display: $mydisplay;
+    // flex-direction: column;
+    // align-items: center;
+}
+// .skills {
+//     display: $mydisplay;
+//     flex-direction: column;
+//     align-content: center;
+// }
+.workExperience {
+    // display: $mydisplay;
+    // flex-direction: column;
+    // align-items: center;
+    // h1 {
+    //     display: $mydisplay;
+    //     align-items: flex-start;
+    // }
 }
 .iconContent {
     display: $mydisplay;
@@ -106,15 +149,29 @@ body {
     h5 {
         margin-bottom: -5px;
     }
+
+}
+.notBold {
+    padding-left: 3px;
+    font-weight: lighter;
 }
 .worldMark{
+    // display: $mydisplay;
+    // flex-direction: column;
+    // align-items: center;
     h3 {
         margin-bottom: -10px;
     }
     h5 {
         margin-bottom: -5px;
     }
+    // ul {
+    //     display: $mydisplay;
+    //     flex-direction: column;
+    //     align-items: center
+    // }
 }
+
 
 // import properties from a separate css file like body or topsection as examples
 // extend is when you also add to your body section even if you have a body css file
